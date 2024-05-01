@@ -1,0 +1,13 @@
+.section{
+    background-color: aqua;
+}
+#name{
+    position: absolute;
+    position: relative;
+    left: 60px;
+}
+#password{
+    position: absolute;
+    position: relative;
+    left: 40px;
+}

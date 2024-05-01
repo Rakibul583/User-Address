@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section">
+        <form action="submit">
+            <div class="section1">
+                <label>Name:</label>
+                <input type="text" name="Name" placeholder="Your name" id="name"><br><br>
+                <label>Password:</label>
+                <input type="text" name="Name" placeholder="Your Password" id="password">
+            </div>
+            <div class="section2"><br>
+                <label>Gender:</label> <br>
+                <input type="radio" id="male" name="Gender" value="Male">
+                <span>Male</span><br>
+                <span>
+                    <input type="radio" id="female" name="Gender" value="Female">
+                    <span id="gender">Female</span><br><br>
+                </span>
+                <label>Age:</label> <br>
+                <input type="radio" name="Age" value="0-30">
+                <span>0-30</span> <br>
+                <span>
+                    <input type="radio" name="Age" value="31-60">
+                    <span>31-60</span><br>
+                </span>
+                <span>
+                    <input type="radio" name="Age" value="61-100">
+                    <span>61-100</span><br><br>
+                </span>
+                <label>Condition:</label> <br>
+                <input type="radio" name="Condition">
+                <span>Good</span> <br>
+                <span>
+                    <input type="radio" name="Condition">
+                    <span>Bad</span><br><br>
+                    <button type="submit" onclick="TakeValues()">Submit</button>
+            </div>
+        </form>
+    </section>
+    <script src="java.js"></script>
+</body>
+
+</html>
